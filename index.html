@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+     <link rel="stylesheet" href="mpp.css">
+     <script src="https://kit.fontawesome.com/a5adf02c13.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header"> 
+        <div class="container">
+            <nav>
+                <img src="sr logo2.png" class="logo" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars " onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, i am <span>Shivam</span><br> Rathour from india</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="shivmpp3.png">
+                </div>
+                <div class="about-col2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> Hello Connections,Myself Shivam Rathour !.
+                        My journey has been all about learning, creating, and improving with each project I work on.
+                        I love taking on new opportunities and using my skills to deliver innovative and impactful solutions. 
+                        Let's connect and explore the possibilities together!  
+                    </p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Java Programming</span><br>Solving Problem Of DSA using Java</li>
+                            <li><span>Web Development</span><br>Mern Stack Developer</li>
+                            <li><span>Machine Learning</span><br>Data Visualization,Data Manipulation using Seaborn,Pandas</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024-2025</span><br>internship at prodigy infotech, web development</li>
+                            <li><span>2023-2024</span><br>internship at tecnohack edutech,java development</li>
+                            <li><span>2022-2023</span><br>software development virtual experience, at datacom</li>
+                            <li><span>2022-2023</span><br>web design and devlopment course,at skill india</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2025</span><br>Bachelor of Engineering From IET Agra (SGPA: 8.09)</li>
+                            <li><span>2020</span><br>Intermediate From J.I.C. (Percentage: 86 %) </li>
+                            <li><span>2018</span><br>High School From M.B.H.S.S. (Percentage: 83.6 %) </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+               <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>currently i am fresher and passionate about creating website
+                     using new features and technology</p>
+                     <a href="#">learn more</a>
+               </div>
+               <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>problem solving</h2>
+                <p>good knowledge in oops and solving dsa 
+                     problem using java Programming language</p>
+                     <a href="#">learn more</a>
+               </div>
+               <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>data domain</h2>
+                <p> data visualization using seaborn
+                     data manipulation using pandas</p>
+                     <a href="#">learn more</a>
+               </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png">
+                    <div class="layer">
+                        <h3>stopwatch </h3>
+                        <p>in this four features are available 
+                            ,start,stop,reset,lap time </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png">
+                    <div class="layer">
+                        <h3>weather app</h3>
+                        <p>by using this we easily take information about weather
+                            only entering place name
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png">
+                    <div class="layer">
+                        <h3>tic tac toe</h3>
+                        <p>it is a famous game, here ai user 
+                            as ans opponent 
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <div id="contact">
+          <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>sr3092235@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>9368636765</p>
+                    <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="my-cv.pdf" download class="btn btn2">download cv</a>
+            </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="your name" required>
+                        <input type="email" name="Email" placeholder="your email" required>
+                        <textarea name="Message" rows="6" placeholder="your message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+          </div>
+          <div class="copyright">
+          <p>Copyright <i class="fa-solid fa-copyright"></i> shivam. Made with  <i class="fa-solid fa-heart"></i>   </p>
+          </div>
+    </div>
+
+    <script src="mpp.js"></script>
+</body>
+</html>
